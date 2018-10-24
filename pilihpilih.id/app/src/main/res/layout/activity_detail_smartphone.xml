@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merk"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvMerkHpdet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvTypeHpdet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ram"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvTypeRamdet"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Internal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvinternal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chipset"
+        android:layout_marginTop="10dp"
+        android:id="@+id/chipset"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPU"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvgpu"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Os"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvTypeOsdet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cpu"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvTypeCpudet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kamera Depan"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvkameraDpn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kamera Belakang"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvTypeKameradet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baterai"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvTypeBateraidet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layar"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvTypeLayardet"
+        android:layout_marginBottom="10dp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/gambarHpdet"/>
+
+</LinearLayout>

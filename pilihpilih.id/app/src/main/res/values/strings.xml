@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">pilihpilih.id</string>
+    <string-array name="smartphone">
+        <item>Samsung</item>
+        <item>Apple</item>
+        <item>Nokia</item>
+        <item>Sony</item>
+        <item>LG</item>
+        <item>HTC</item>
+        <item>Motorola</item>
+        <item>Huawei</item>
+        <item>Lenovo</item>
+        <item>Xiaomi</item>
+        <item>Asus</item>
+        <item>Oppo</item>
+        <item>Vivo</item>
+    </string-array>
+</resources>

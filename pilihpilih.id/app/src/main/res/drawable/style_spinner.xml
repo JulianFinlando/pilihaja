@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <layer-list>
+
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#F00"/>
+                    <corners android:radius="6dp" />
+                </shape>
+            </item>
+
+            <item>
+                <bitmap
+                    android:gravity="center_vertical|right"
+                    android:src="@drawable/drop2"/>
+            </item>
+
+        </layer-list>
+
+    </item>
+
+</selector>
