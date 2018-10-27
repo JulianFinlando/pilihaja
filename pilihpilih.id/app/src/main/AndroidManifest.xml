@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PilihSmartphoneActivity">
+        <activity android:name=".StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,6 +24,7 @@
             android:parentActivityName=".PilihSmartphoneActivity" />
         <activity android:name=".GridActivity" />
         <activity android:name=".DetailSmartphoneActivity"></activity>
+        <activity android:name=".PilihSmartphoneActivity"></activity>
     </application>
 
 </manifest>
