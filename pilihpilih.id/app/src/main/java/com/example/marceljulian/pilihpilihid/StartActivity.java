@@ -125,7 +125,7 @@ public class StartActivity extends AppCompatActivity {
     }
     private void startMainActivity(){
         setFirstTimeStartStatus(false);
-        startActivity(new Intent(StartActivity.this, PilihSmartphoneActivity.class));
+        startActivity(new Intent(StartActivity.this, HomeActivity.class));
         finish();
     }
     private void setStatusBarTransparent(){

@@ -23,8 +23,9 @@
             android:name=".ShowPilihanActivity"
             android:parentActivityName=".PilihSmartphoneActivity" />
         <activity android:name=".GridActivity" />
-        <activity android:name=".DetailSmartphoneActivity"></activity>
-        <activity android:name=".PilihSmartphoneActivity"></activity>
+        <activity android:name=".DetailSmartphoneActivity" />
+        <activity android:name=".PilihSmartphoneActivity" />
+        <activity android:name=".HomeActivity"></activity>
     </application>
 
 </manifest>

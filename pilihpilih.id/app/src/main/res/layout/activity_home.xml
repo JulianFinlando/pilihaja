@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_home"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="282dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="261dp"
+        android:background="#FFFFFF"
+        android:text="Start Now"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
